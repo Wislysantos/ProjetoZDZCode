@@ -119,7 +119,7 @@ export default {
   computed: {
     filteredProducts() {
       return this.produtos.filter(product => 
-        product.name.toLowerCase().includes(this.search.toLowerCase())
+        product.name.toLowerCase().includes(this.search.toLowerCase()) && product.available !== 0
       );
     },
     totalPrice() {
