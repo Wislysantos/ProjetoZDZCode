@@ -101,17 +101,17 @@ export default {
           icon: 'mdi-apps',
           title: 'Home',
           to: '/'
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
-        },
+        },        
         {
           icon: 'mdi-chart-bubble',
           title: 'venda',
           to: '/venda'
-        }
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Historico de venda',
+          to: '/historicodevenda'
+        },
       ],
       miniVariant: false,
       right: true,
